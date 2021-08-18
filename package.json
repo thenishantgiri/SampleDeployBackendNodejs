@@ -1,0 +1,23 @@
+{
+  "name": "project-realtime_chat_app-with_websockets",
+  "version": "1.0.0",
+  "description": "Realtime Chatting App using WebSockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thenishantgiri/Project-Realtime_Chat_App-with_WebSockets.git"
+  },
+  "author": "Nishant Kumar Giri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thenishantgiri/Project-Realtime_Chat_App-with_WebSockets/issues"
+  },
+  "homepage": "https://github.com/thenishantgiri/Project-Realtime_Chat_App-with_WebSockets#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3"
+  }
+}
