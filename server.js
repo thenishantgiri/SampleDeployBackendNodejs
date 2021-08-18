@@ -2,6 +2,8 @@ const http = require("http");
 const express = require("express");
 const socketio = require("socket.io");
 
+const SERVER_PORT = process.env.PORT || 3344;
+
 const app = express();
 
 const server = http.createServer(app);
@@ -49,6 +51,6 @@ io.on("connection", (socket) => {
 
 app.use("/", express.static(__dirname + "/public"));
 
-server.listen(3344, () => {
+server.listen(SERVER_PORT, () => {
   console.log("Server started on http://localhost:3344");
 });
